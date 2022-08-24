@@ -1,0 +1,114 @@
+<!DOCTYPE-html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Display Properties | W3 - Box Model &amp; Fonts</title>
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/css-display-property.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="masthead" role="banner">
+    <div class="container">
+      <a href="/" class="logo">
+        <strong>W3 - Box Model &amp; Fonts</strong>
+      </a>
+      <nav id="nav" role="navigation">
+        <ul>
+          <li>
+            <a href="/#examples">All Lessons</a>
+          </li>
+          <li>
+            <a href="https://mad9013.github.io/F2021/modules/week3/" target="_blank">Week 3 Content</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main" role="main">
+
+    <!-- ---------- TUTORIAL START ---------- -->
+
+    <section>
+      <div class="container container-side-padding units-wrap">
+        <h1>CSS Display Property</h1>
+        <h2 class="padding-t">Block vs Inline-Block vs Inline</h2>
+        <div class="display-examples">
+          <div class="block">Block</div>
+          <div class="block w-1-2">Block - 50% Width</div>
+          <div class="inline-block">Inline Block</div>
+          <div class="inline-block w-1-2">Inline Block - 50% Width</div>
+          <div class="hidden">Hidden</div>
+          <div class="inline-block">Inline Block</div>
+          <div class="inline-block w-3-4">Inline Block - 75% Width</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="hidden">Hidden</div>
+          <div class="block w-1-4">Block - 25% Width</div>
+          <div class="inline-block">Inline Block</div>
+          <div class="inline">Inline</div>
+          <div class="hidden">Hidden</div>
+          <div class="inline w-3-4">Inline - 75% Width</div>
+        </div>
+        <h2 class="padding-t">Things to keep in mind...</h2>
+        <h3>Inline</h3>
+        <p>Inline elements can't receive widths, will break between lines, and their padding and margin spill outside of their box. <code>display: inline;</code> is best used for <span class="stylish">adding styles</span> to text within a paragraph because it stays within the flow of text.</p>
+        <div class="display-examples">
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline w-3-4">Inline - 75% Width</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline w-3-4">Inline - 75% Width</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline w-3-4">Inline - 75% Width</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline">Inline</div>
+          <div class="inline w-3-4">Inline - 75% Width</div>
+          <div class="inline">Inline</div>
+        </div>
+        <div class="instructor-comment ic-left">
+          <p><cite>Adam</cite>: Yikes, that looks terrible...</p>
+        </div>
+        <h3 class="padding-t">Inline-Block</h3>
+        <p>Inline-block elements automatically get a bit of spacing around them that you can't remove. Meaning four inline-block elements that are 25% width each, will actually take up more than 100% of the space.</p>
+        <div class="display-examples">
+          <div class="inline-block w-1-4">Inline Block - 25% Width</div>
+          <div class="inline-block w-1-4">Inline Block - 25% Width</div>
+          <div class="inline-block w-1-4">Inline Block - 25% Width</div>
+          <div class="inline-block w-1-4">Inline Block - 25% Width</div>
+        </div>
+        <div class="instructor-comment ic-left">
+          <p><cite>Adam</cite>: Luckily, <code>display: flex;</code> and <code>display: grid;</code> provide us with good alternatives for creating columns and grids, which we will <a href="https://mad9013.github.io/F2021/modules/week6/" target="_blank">see in a few weeks</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- TUTORIAL END ---------- -->
+
+    <footer>
+      <ol class="page-arrows container">
+        <li><a href="/css-box-model.html">
+          <span class="title">Previous</span>
+          <span class="page">CSS Box Model</span>
+        </a></li>
+        <li class="next"><a href="/centering-vs-text-align.html">
+          <span class="title">Next</span>
+          <span class="page">Centering vs Text Align</span>
+        </a></li>
+      </ol>
+    </footer>
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <small>Created for <a href="https://mad9013.github.io/F2021/">MAD9013 course</a> and free for any use.</small>
+    </div>
+  </footer>
+</body>
+</html>

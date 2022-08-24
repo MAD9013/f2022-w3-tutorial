@@ -1,0 +1,46 @@
+.display-examples .block,
+.display-examples .inline-block,
+.display-examples .inline {
+  text-align: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: .5rem;
+  color: #fff;
+  margin-bottom: .5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
+}
+
+.display-examples .block {
+  background-color: #00673e;
+}
+
+.display-examples .inline-block {
+  background-color: #7ac142;
+  display: inline-block;
+}
+
+.display-examples .inline {
+  background-color: #176b67;
+  display: inline;
+}
+
+.display-examples .hidden {
+  display: none;
+}
+
+.w-1-4 {
+  width: 25%;
+}
+
+.w-1-2 {
+  width: 50%;
+}
+
+.w-3-4 {
+  width: 75%;
+}
+
+.stylish {
+  color: #00673e;
+  font-weight: bold;
+}

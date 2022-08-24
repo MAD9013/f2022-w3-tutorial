@@ -1,0 +1,106 @@
+<!DOCTYPE-html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors & Cascade | W3 - Box Model &amp; Fonts</title>
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/css-selectors-cascade.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="masthead" role="banner">
+    <div class="container">
+      <a href="/" class="logo">
+        <strong>W3 - Box Model &amp; Fonts</strong>
+      </a>
+      <nav id="nav" role="navigation">
+        <ul>
+          <li>
+            <a href="/#examples">All Lessons</a>
+          </li>
+          <li>
+            <a href="https://mad9013.github.io/F2021/modules/week3/" target="_blank">Week 3 Content</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main" role="main">
+
+    <!-- ---------- TUTORIAL START ---------- -->
+
+    <section>
+      <div class="container container-side-padding units-wrap">
+        <h1>CSS Selectors, Cascade, &amp; Specificity</h1>
+        <h2 class="padding-t">Selectors</h2>
+        <h3 id="point-1" class="heading-3" tabindex="0">Heading 3</h3>
+        <p class="intro">Lorem ipsum dolor sit amet, <span>consectetur adipisicing</span> elit. Sunt, ex neque. Dolorum nobis sequi facilis, saepe voluptas animi consectetur illum error provident pariatur quasi enim ducimus dolorem laboriosam iusto facere.</p>
+        <p>Doloremque voluptate <a href="#">perspiciatis dolorem</a>, commodi numquam velit, iusto veritatis repudiandae unde vitae distinctio ex, provident deleniti placeat voluptatibus animi! Nemo voluptatem quibusdam eveniet quia obcaecati, adipisci aliquam suscipit eaque sint.</p>
+        <p>Explicabo fugit error iste, dolores <span class="red">possimus amet molestias</span> quos laboriosam velit aperiam enim voluptatem sapiente! Animi error eius, iste, voluptatem sequi aspernatur aperiam ducimus veniam voluptate necessitatibus quas? Sunt, maxime?</p>
+        <div class="note">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque accusamus praesentium, enim eaque eveniet quia doloribus in deleniti quis dolorem blanditiis vitae!</p>
+          <div class="note-information">
+            <p>Written by Jesse on <time datetime="2020-09-12">September 12, 2020</time></p>
+          </div>
+        </div>
+        <h3 id="point-2" tabindex="0">Heading 3 /w Class</h3>
+        <p>Molestiae sint totam odit! Consequuntur perferendis iste, nesciunt accusamus repellendus vitae, dolorem dignissimos autem iusto, vero animi? Veniam eius quaerat quidem iste, obcaecati, voluptate autem repellendus nulla eaque voluptatum nesciunt?</p>
+        <p class="outro">Commodi quia incidunt labore quibusdam unde animi blanditiis a numquam, officiis saepe fugiat, reprehenderit doloremque! Repellendus placeat, consequatur ea odit quam veniam vero esse dolore laudantium illo sit iure ratione?</p>
+        <ol class="list">
+          <li>List Item 1</li>
+          <li>
+            List Item 2
+            <ol>
+              <li>Sub Item 1</li>
+              <li>Sub Item 2</li>
+              <li>Sub Item 3</li>
+              <li>Sub Item 4</li>
+              <li>Sub Item 5</li>
+            </ol>
+          </li>
+          <li>List Item 3</li>
+          <li>List Item 4</li>
+          <li>List Item 5</li>
+        </ol>
+        <div class="pseudo-classes">
+          <h3>Pseudo Classes</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam enim sed, amet et itaque aperiam eligendi blanditiis est. Dolore dolorem numquam soluta! Nulla, voluptatum impedit quis autem maxime enim fuga!</p>
+          <p>Illo officia, eum quos beatae, distinctio nesciunt eaque rerum saepe suscipit tempore dolore, eos asperiores! Officia, soluta tempore commodi autem nisi consequatur nihil inventore aliquid et fugit fugiat vitae. Quos.</p>
+          <p>Facilis maiores sint tempora nemo reiciendis provident cumque inventore voluptatum hic, eveniet voluptatibus, est quasi eum soluta ratione minus, possimus molestias laudantium reprehenderit omnis fugiat autem aspernatur. Illum, nesciunt quidem.</p>
+          <p>Vero temporibus quia unde qui quibusdam odit tempora non incidunt rem explicabo ipsam tenetur tempore quae, labore eveniet doloremque placeat, corporis aspernatur molestiae error dignissimos illo, veritatis eligendi ex. Sapiente.</p>
+          <p>Corrupti quaerat recusandae doloremque eius voluptates, in corporis explicabo consectetur neque optio repellendus laboriosam excepturi hic sed architecto maxime veniam nam accusamus praesentium sit illum. Ad placeat officiis modi perspiciatis?</p>
+          <p>Reiciendis tenetur aliquam pariatur saepe tempore cupiditate corporis officia voluptatibus odit consequuntur numquam, ratione harum soluta autem animi maxime amet beatae? Eligendi quo odio nemo. Commodi dolorum possimus accusamus quia.</p>
+          <p>Dolor, nostrum pariatur dolore fugiat expedita nobis aperiam, placeat obcaecati tempore, soluta labore voluptates id. Mollitia in doloremque harum rerum unde amet quisquam id perferendis facere consequatur suscipit, porro quis?</p>
+          <p>Exercitationem nesciunt quae obcaecati soluta eius optio impedit qui quisquam maxime ea dolor ut, libero itaque totam neque aspernatur sint ex aut quam. Natus corrupti ducimus necessitatibus, magnam iusto ex.</p>
+          <p>Architecto ea corrupti eveniet voluptatibus iusto, sint molestias nostrum facere aperiam voluptates velit a, alias assumenda perspiciatis praesentium reiciendis ipsam porro dicta aspernatur tempore. Deserunt eius debitis nam necessitatibus pariatur.</p>
+          <p>Quia unde sequi reiciendis magni. Culpa error natus consequuntur officia optio fuga iure quisquam, ab nam quasi eveniet necessitatibus explicabo. Odit at beatae, doloremque molestias est impedit mollitia. Nihil, neque.</p>
+          <div>
+            <input id="example" name="example" type="checkbox">
+            <label for="example">Checkbox</label>
+          </div>
+        </div>
+    </section>
+
+    <!-- ---------- TUTORIAL END ---------- -->
+
+    <footer>
+      <ol class="page-arrows container">
+        <li><a href="/centering-vs-text-align.html">
+          <span class="title">Previous</span>
+          <span class="page">Centering vs Text-Align</span>
+        </a></li>
+        <li class="next"><a href="/fonts-in-css.html">
+          <span class="title">Next</span>
+          <span class="page">Fonts in CSS</span>
+        </a></li>
+      </ol>
+    </footer>
+  </main>
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <small>Created for <a href="https://mad9013.github.io/F2021/">MAD9013 course</a> and free for any use.</small>
+    </div>
+  </footer>
+</body>
+</html>
